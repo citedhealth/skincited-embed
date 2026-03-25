@@ -104,12 +104,6 @@ That's it. The widget fetches evidence data from the SkinCited API and renders i
 <script src="https://cdn.jsdelivr.net/npm/skincited-embed@1/dist/embed.min.js"></script>
 ```
 
-### R2 CDN (skincited.com hosted)
-
-```html
-<script src="https://cdn.skincited.com/embed.min.js"></script>
-```
-
 ### npm (for bundlers)
 
 ```bash
