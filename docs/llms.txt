@@ -1,0 +1,31 @@
+# SkinCited Embed Widget
+
+> Embeddable SkinCited widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/skincited-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://skincited.com
+- Widget docs: https://widget.skincited.com
+- npm: https://www.npmjs.com/package/skincited-embed
+- GitHub: https://github.com/citedhealth/skincited-embed
+- API: https://skincited.com/developers/
+
+## CITED Health Widget Family
+
+- [CitedHealth Widget](https://widget.citedhealth.com)
+- [HairCited Widget](https://widget.haircited.com)
+- [SleepCited Widget](https://widget.sleepcited.com)
+- [GutCited Widget](https://widget.gutcited.com)
+- [ImmuneCited Widget](https://widget.immunecited.com)
+- [BrainCited Widget](https://widget.braincited.com)
+- [WeightCited Widget](https://widget.weightcited.com)
+- [HeartCited Widget](https://widget.heartcited.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
