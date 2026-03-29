@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# SkinCited Embed Widget
+# Main site: https://skincited.com
+# Widget docs: https://widget.skincited.com
+# npm: https://www.npmjs.com/package/skincited-embed
