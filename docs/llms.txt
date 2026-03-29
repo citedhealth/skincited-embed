@@ -1,21 +1,51 @@
 # SkinCited Embed Widget
 
-> Embeddable SkinCited widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Evidence-based health research. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/skincited-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/skincited-embed@1/dist/embed.min.js"></script>
+<div data-skincited="evidence" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- evidence: `data-skincited="evidence"`
+- ingredient: `data-skincited="ingredient"`
+- condition: `data-skincited="condition"`
+- paper: `data-skincited="paper"`
+- figure: `data-skincited="figure"`
+- search: `data-skincited="search"`
+- safety: `data-skincited="safety"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-skincited="evidence" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/skincited-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://skincited.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://skincited.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://skincited.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://skincited.com
 - Widget docs: https://widget.skincited.com
-- npm: https://www.npmjs.com/package/skincited-embed
-- GitHub: https://github.com/citedhealth/skincited-embed
-- API: https://skincited.com/developers/
+- API documentation: https://skincited.com/developers/
+- npm package: https://www.npmjs.com/package/skincited-embed
+- GitHub: https://github.com/fyipedia/skincited-embed
 
-## CITED Health Widget Family
+## CITED Health Widget Network
 
 - [CitedHealth Widget](https://widget.citedhealth.com)
 - [HairCited Widget](https://widget.haircited.com)
